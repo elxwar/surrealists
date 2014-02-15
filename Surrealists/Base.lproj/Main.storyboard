@@ -17,9 +17,9 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a5R-t4-WyO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-691" y="39"/>
+            <point key="canvasLocation" x="-691" y="425"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Women Surrealists-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -43,6 +43,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="b2L-hX-c7S" kind="push" id="UAO-8T-6NM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Keo-c9-3jt">
                                 <rect key="frame" x="160" y="65" width="160" height="250"/>
@@ -52,6 +55,9 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="QPG-d5-Zps" kind="push" id="O1v-r5-5u0"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0B-Hl-61B">
                                 <rect key="frame" x="0.0" y="315" width="160" height="253"/>
@@ -61,6 +67,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="PMS-0b-hZU" kind="push" id="u7Q-xI-liR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-wf-Rxi">
                                 <rect key="frame" x="160" y="315" width="160" height="253"/>
@@ -70,22 +79,211 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="9Ua-gK-p3j" kind="push" id="Ewk-wi-zIh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="CPU-29-kRH"/>
+                    <navigationItem key="navigationItem" title="Women Surrealists" id="CPU-29-kRH">
+                        <barButtonItem key="backBarButtonItem" title="Surrealists" id="Pig-4U-3Uk"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-190" y="39"/>
+            <point key="canvasLocation" x="-190" y="425"/>
+        </scene>
+        <!--View Controller - Remedios Vamo-->
+        <scene sceneID="a4o-O6-ZW0">
+            <objects>
+                <viewController id="b2L-hX-c7S" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J45-0e-1ez"/>
+                        <viewControllerLayoutGuide type="bottom" id="ztW-uo-MzY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LWC-kr-0Yo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RemediosVaro2" translatesAutoresizingMaskIntoConstraints="NO" id="4Vz-QU-ZD4">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVH-vo-BtP">
+                                <rect key="frame" x="60" y="78" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50165591032608692" green="0.50165591032608692" blue="0.50165591032608692" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">(1908-1963) Born in Girona, Spain, Remedios Varo Uranga studies art in Madrid before seeking refuge in Paris during the Spanish Civil War. She married the French surrealist poet Benjamin Péret and joined the art group Logicophobiste.
+
+Before the Nazi occupation of France, she fled again to Mexico, where she met Frida Kahlo and Diego Revera. She remained in Latin America for the rest of her life.
+
+Her art focuses on themes of nature, science, and the mystic connection between them. She was influenced by renaissance art, especially the works of Hieronymus Bosch, and used formal construction and a narrative structure.
+
+Her mature paintings, fraught with arguably feminist meaning, are predominantly from the last few years of her life. The paintings of androgynous characters that share Varo’s facial features, mythical creatures, the misty swirls and eerie distortions of perspective are characteristic of Varo’s unique brand of surrealism.
+
+[El gato helecho (The Fern Cat), 1957]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Remedios Vamo" id="LLF-NU-Zzv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cwn-b0-4J0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="300" y="39"/>
+        </scene>
+        <!--View Controller - Kay Sage-->
+        <scene sceneID="QOD-Nt-R2v">
+            <objects>
+                <viewController id="QPG-d5-Zps" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zz7-BO-gQ9"/>
+                        <viewControllerLayoutGuide type="bottom" id="C5K-cc-m42"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0pp-9U-tQQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KaySage2" translatesAutoresizingMaskIntoConstraints="NO" id="8WT-Xr-OIM">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BF6-wf-265">
+                                <rect key="frame" x="60" y="85" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50165591030000001" green="0.50165591030000001" blue="0.50165591030000001" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
+
+Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
+
+In 1933 Sage moved to Paris, to "become an artist," wherein she encountered the surrealist art movement. She embraced the new style and began painting in earnest. Art historian Whitney Chadwick said that Sage’s paintings were “imbued with an aura of purified form and a sense of motionlessness and impending doom found nowhere else in Surrealism.” There she met her future husband, and possibly her greatest influence, fellow surrealist Yves Tanguy.
+
+(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
+
+Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
+
+In 1933 Sage moved to Paris, to "become an artist," wherein she encountered the surrealist art movement. She embraced the new style and began painting in earnest. Art historian Whitney Chadwick said that Sage’s paintings were “imbued with an aura of purified form and a sense of motionlessness and impending doom found nowhere else in Surrealism.” There she met her future husband, and possibly her greatest influence, fellow surrealist Yves Tanguy.
+
+At the outbreak of World War II, Sage returned again to New York, where she used her wealth and influence to raise awareness of surrealism in the United States, and where she finally established herself as a successful, and widely praised, artist. Sage did the bulk of her mature work between 1940, when she married Tanguy, and 1955, when he died suddenly from a cerebral hemorrhage.
+
+[I Saw Three Cities, 1944]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Kay Sage" id="JHs-uh-cv6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="urT-kV-aHC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="160"/>
+        </scene>
+        <!--View Controller - Frida Kahlo-->
+        <scene sceneID="1Ky-r5-fLy">
+            <objects>
+                <viewController id="9Ua-gK-p3j" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b61-jU-R7n"/>
+                        <viewControllerLayoutGuide type="bottom" id="osR-Pu-hCL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UXY-9i-sNf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FridaKahlo2" translatesAutoresizingMaskIntoConstraints="NO" id="WCu-KT-svJ">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b95-GB-9Bm">
+                                <rect key="frame" x="60" y="85" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50165591030000001" green="0.50165591030000001" blue="0.50165591030000001" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">(1907-1954) Born Magdalena Carmen Frieda Kahlo y Caldrón, Frida Kahlo lived almost her entire life in the La Casa Azul (The Blue House), in what was then the outskirts of Mexico City. Her father, Guillermo Kahlo (born Carl Wilhelm Kahlo), was a German immigrant, and photographer by trade. Her mother, Matilde Calderón y Gonzalez, was of Amerindian (an indigenous South American people) and Spanish ancestry. Guillermo married Matilde after the death of his first wife, and they had four daughters, Frida being the third.
+
+Frida suffered physical misery and pain most of her life. She contracted polio at age six, leaving her with a withered leg, which she disguised with long colorful skirts. At eighteen, she was involved in a horrific trolly car accident that resulted in extensive damage to her spinal column, pelvis, and internal organs. Constant pain and the dozens of surgeries she endured were reoccurring themes in her artwork.
+
+Frida admired the famous Mexican painter, Diego Rivera, and exchanged correspondence with him for years before she finally met him. When she did, they developed an intimate relationship, and eventually married in 1929, over the objections of her parents. Their marriage was troubled and contentious. They often has separate living arrangements, and both engaged in numerous extra-marital affairs. They were divorced in 1939, but remarried again in 1940. Through her marriage to Diego, she was introduced to New York galleries, where she gained her own celebrity.
+
+Frida died at the age of 47. She was in constant pain her final years, often bed ridden for months at a time, complications of her injuries and subsequent treatments. Yet, she did not allow her condition to diminish her passion for art. She had a special easel built so she could paint in bed, and attended one of her openings by having four strong men carry her, on her bed, into the gallery.
+
+Kahlo embraced indigenous Mexican culture, often combining elements of religious tradition, dramatic symbolism, bright colors, and primitive style in her artwork. She was often the subject of her own art, and produced many self portraits during her career. Her early works was strongly influenced by Diego, but always incorporated her own symbolism and imagery.
+
+[The Suicide of Dorothy Hale, 1938]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Frida Kahlo" id="Pp9-Bo-s0M"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FBi-4G-T2u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="910"/>
+        </scene>
+        <!--View Controller - Leonora Carrington-->
+        <scene sceneID="JiC-wF-kwX">
+            <objects>
+                <viewController id="PMS-0b-hZU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qVz-Dz-FYl"/>
+                        <viewControllerLayoutGuide type="bottom" id="9pk-nX-L0T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hbj-nV-wHh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LeonoraCarrington2" translatesAutoresizingMaskIntoConstraints="NO" id="ZZd-FT-8ZT">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1uP-te-dzW">
+                                <rect key="frame" x="60" y="85" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50165591030000001" green="0.50165591030000001" blue="0.50165591030000001" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">(1917-2011) Leonora Carrington was born in Clayton Green, Lancashire, England to a wealthy textile manufacturer. Her rebellious nature resulted in expulsion from two schools. Her early education was undertaken by governesses, tutors, and nuns. In her teens, her family sent her to Florence, Italy, where she attended Mrs. Penrose's Academy of Art. Returning to England, she studied at the Chelsea School of Art and later the Ozenfant Academy in London.
+
+Leonora saw her first surrealist painting at the age of ten and later met many Surrealists, including Paul Éluard. While her father discouraged her career in art, her mother, Maureeen Moorhead, encouraged it, giving her a copy of Herbert Read's book "Surrealism" (1936).
+
+Carrington was attracted to Max Ernst's work long before she met him in 1937. The two bonded in Paris, whereupon Ernst separated from his wife. The next year they moved to Saint Martin d'Archèche, in the south of France. They spent years there, collaborating on paintings, sculptures, and decorative arts.
+
+At the outbreak of World War II, Ernst was repeatedly arrested, but eventually escaped to America. Carrington was devastated, and fled to Spain where she had a nervous breakdown and was institutionalized. With the help of friends, she was smuggled to Lisbon, where she sought asylum at the Mexican Embassy. To obtain passage to Mexico, she agreed to a marriage of convince to the Mexican Ambasidor, Renato Leduc, a friend of Picasso. Except for a brief period in New York, she lived and worked in Mexico the rest of her life.
+
+Her first major exhibition was in 1957 in New York, where she became an instant celebrity, being the only professional, woman, English painter of note. She authored several books. Her artwork was often exhibited in conjunction with fellow surrealists Remedios Varo and Kati Horna.
+
+Leonora had a fascination for horses, which she incorporated in both her artwork and her writings. She also developed her own symbology, using an image of a candlestick, for example, to refer to her family. She was one of the last surviving surrealist artists, and set a Christie's auction record for the highest price ($713,000US) paid for work by a living surrealist painter.
+
+[Daravault, 1950]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Leonora Carrington" id="txV-sk-b3p"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QBc-w8-Ikm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="758" y="834"/>
         </scene>
     </scenes>
     <resources>
         <image name="FridaKahlo1" width="160" height="256"/>
+        <image name="FridaKahlo2" width="1000" height="1187"/>
         <image name="KaySage1" width="160" height="256"/>
+        <image name="KaySage2" width="787" height="1024"/>
         <image name="LeonoraCarrington1" width="160" height="256"/>
+        <image name="LeonoraCarrington2" width="770" height="941"/>
         <image name="RemediosVaro1" width="160" height="256"/>
+        <image name="RemediosVaro2" width="1152" height="1536"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
