@@ -35,8 +35,8 @@
                             <userLayoutGuide location="315" affinity="minY"/>
                         </userGuides>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Tn-pR-g3t">
-                                <rect key="frame" x="0.0" y="66" width="160" height="249"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Tn-pR-g3t">
+                                <rect key="frame" x="0.0" y="64" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Remedios Vamo" backgroundImage="RemediosVaro1">
@@ -47,8 +47,8 @@
                                     <segue destination="b2L-hX-c7S" kind="push" id="UAO-8T-6NM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Keo-c9-3jt">
-                                <rect key="frame" x="160" y="65" width="160" height="250"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Keo-c9-3jt">
+                                <rect key="frame" x="160" y="64" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Kay Sage" backgroundImage="KaySage1">
@@ -59,8 +59,8 @@
                                     <segue destination="QPG-d5-Zps" kind="push" id="O1v-r5-5u0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0B-Hl-61B">
-                                <rect key="frame" x="0.0" y="315" width="160" height="253"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P0B-Hl-61B">
+                                <rect key="frame" x="0.0" y="316" width="162" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Leonora Carrington" backgroundImage="LeonoraCarrington1">
@@ -71,8 +71,8 @@
                                     <segue destination="PMS-0b-hZU" kind="push" id="u7Q-xI-liR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-wf-Rxi">
-                                <rect key="frame" x="160" y="315" width="160" height="253"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFn-wf-Rxi">
+                                <rect key="frame" x="160" y="316" width="160" height="252"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <state key="normal" title="Frida Kahlo" backgroundImage="FridaKahlo1">
@@ -85,6 +85,20 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1Tn-pR-g3t" firstAttribute="top" secondItem="F6q-SS-5Vg" secondAttribute="bottom" id="R7v-vI-99b"/>
+                            <constraint firstItem="1Tn-pR-g3t" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Vyv-Nw-OIU"/>
+                            <constraint firstAttribute="trailing" secondItem="Keo-c9-3jt" secondAttribute="trailing" id="XOO-b3-uGO"/>
+                            <constraint firstItem="P0B-Hl-61B" firstAttribute="height" secondItem="1Tn-pR-g3t" secondAttribute="height" id="bsR-LS-GIT"/>
+                            <constraint firstItem="P0B-Hl-61B" firstAttribute="top" secondItem="1Tn-pR-g3t" secondAttribute="bottom" id="cWc-nZ-DNb"/>
+                            <constraint firstItem="P0B-Hl-61B" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="fe3-Yh-lz6"/>
+                            <constraint firstAttribute="trailing" secondItem="vFn-wf-Rxi" secondAttribute="trailing" id="lUR-Ry-TID"/>
+                            <constraint firstItem="vFn-wf-Rxi" firstAttribute="height" secondItem="Keo-c9-3jt" secondAttribute="height" id="n4K-p2-3PF"/>
+                            <constraint firstItem="vFn-wf-Rxi" firstAttribute="top" secondItem="Keo-c9-3jt" secondAttribute="bottom" id="nOH-lX-Q7q"/>
+                            <constraint firstItem="Ooh-bi-q3f" firstAttribute="top" secondItem="P0B-Hl-61B" secondAttribute="bottom" id="p0d-DL-yqR"/>
+                            <constraint firstItem="Ooh-bi-q3f" firstAttribute="top" secondItem="vFn-wf-Rxi" secondAttribute="bottom" id="un1-2C-QRj"/>
+                            <constraint firstItem="Keo-c9-3jt" firstAttribute="top" secondItem="F6q-SS-5Vg" secondAttribute="bottom" id="vmo-BG-pQs"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Women Surrealists" id="CPU-29-kRH">
                         <barButtonItem key="backBarButtonItem" title="Surrealists" id="Pig-4U-3Uk"/>
@@ -114,7 +128,7 @@
                                 <rect key="frame" x="60" y="78" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50165591032608692" green="0.50165591032608692" blue="0.50165591032608692" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">(1908-1963) Born in Girona, Spain, Remedios Varo Uranga studies art in Madrid before seeking refuge in Paris during the Spanish Civil War. She married the French surrealist poet Benjamin Péret and joined the art group Logicophobiste.
+                                <string key="text">(1908-1963) Born in Girona, Spain, Remedios Varo Uranga studies art in Madrid before seeking refuge in Paris during the Spanish Civil War. She married the French surrealist poet Benjamin Péret and joined the art group Logicophobiste.
 
 Before the Nazi occupation of France, she fled again to Mexico, where she met Frida Kahlo and Diego Revera. She remained in Latin America for the rest of her life.
 
@@ -122,7 +136,7 @@ Her art focuses on themes of nature, science, and the mystic connection between 
 
 Her mature paintings, fraught with arguably feminist meaning, are predominantly from the last few years of her life. The paintings of androgynous characters that share Varo’s facial features, mythical creatures, the misty swirls and eerie distortions of perspective are characteristic of Varo’s unique brand of surrealism.
 
-[El gato helecho (The Fern Cat), 1957]</mutableString>
+[El gato helecho (The Fern Cat), 1957]</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -153,10 +167,10 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BF6-wf-265">
-                                <rect key="frame" x="60" y="85" width="240" height="128"/>
+                                <rect key="frame" x="12" y="243" width="207" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50165591030000001" green="0.50165591030000001" blue="0.50165591030000001" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
+                                <string key="text">(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
 
 Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
 
@@ -170,7 +184,7 @@ In 1933 Sage moved to Paris, to "become an artist," wherein she encountered the 
 
 At the outbreak of World War II, Sage returned again to New York, where she used her wealth and influence to raise awareness of surrealism in the United States, and where she finally established herself as a successful, and widely praised, artist. Sage did the bulk of her mature work between 1940, when she married Tanguy, and 1955, when he died suddenly from a cerebral hemorrhage.
 
-[I Saw Three Cities, 1944]</mutableString>
+[I Saw Three Cities, 1944]</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -204,7 +218,7 @@ At the outbreak of World War II, Sage returned again to New York, where she used
                                 <rect key="frame" x="60" y="85" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50165591030000001" green="0.50165591030000001" blue="0.50165591030000001" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">(1907-1954) Born Magdalena Carmen Frieda Kahlo y Caldrón, Frida Kahlo lived almost her entire life in the La Casa Azul (The Blue House), in what was then the outskirts of Mexico City. Her father, Guillermo Kahlo (born Carl Wilhelm Kahlo), was a German immigrant, and photographer by trade. Her mother, Matilde Calderón y Gonzalez, was of Amerindian (an indigenous South American people) and Spanish ancestry. Guillermo married Matilde after the death of his first wife, and they had four daughters, Frida being the third.
+                                <string key="text">(1907-1954) Born Magdalena Carmen Frieda Kahlo y Caldrón, Frida Kahlo lived almost her entire life in the La Casa Azul (The Blue House), in what was then the outskirts of Mexico City. Her father, Guillermo Kahlo (born Carl Wilhelm Kahlo), was a German immigrant, and photographer by trade. Her mother, Matilde Calderón y Gonzalez, was of Amerindian (an indigenous South American people) and Spanish ancestry. Guillermo married Matilde after the death of his first wife, and they had four daughters, Frida being the third.
 
 Frida suffered physical misery and pain most of her life. She contracted polio at age six, leaving her with a withered leg, which she disguised with long colorful skirts. At eighteen, she was involved in a horrific trolly car accident that resulted in extensive damage to her spinal column, pelvis, and internal organs. Constant pain and the dozens of surgeries she endured were reoccurring themes in her artwork.
 
@@ -214,7 +228,7 @@ Frida died at the age of 47. She was in constant pain her final years, often bed
 
 Kahlo embraced indigenous Mexican culture, often combining elements of religious tradition, dramatic symbolism, bright colors, and primitive style in her artwork. She was often the subject of her own art, and produced many self portraits during her career. Her early works was strongly influenced by Diego, but always incorporated her own symbolism and imagery.
 
-[The Suicide of Dorothy Hale, 1938]</mutableString>
+[The Suicide of Dorothy Hale, 1938]</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -248,7 +262,7 @@ Kahlo embraced indigenous Mexican culture, often combining elements of religious
                                 <rect key="frame" x="60" y="85" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.50165591030000001" green="0.50165591030000001" blue="0.50165591030000001" alpha="0.33000000000000002" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">(1917-2011) Leonora Carrington was born in Clayton Green, Lancashire, England to a wealthy textile manufacturer. Her rebellious nature resulted in expulsion from two schools. Her early education was undertaken by governesses, tutors, and nuns. In her teens, her family sent her to Florence, Italy, where she attended Mrs. Penrose's Academy of Art. Returning to England, she studied at the Chelsea School of Art and later the Ozenfant Academy in London.
+                                <string key="text">(1917-2011) Leonora Carrington was born in Clayton Green, Lancashire, England to a wealthy textile manufacturer. Her rebellious nature resulted in expulsion from two schools. Her early education was undertaken by governesses, tutors, and nuns. In her teens, her family sent her to Florence, Italy, where she attended Mrs. Penrose's Academy of Art. Returning to England, she studied at the Chelsea School of Art and later the Ozenfant Academy in London.
 
 Leonora saw her first surrealist painting at the age of ten and later met many Surrealists, including Paul Éluard. While her father discouraged her career in art, her mother, Maureeen Moorhead, encouraged it, giving her a copy of Herbert Read's book "Surrealism" (1936).
 
@@ -260,7 +274,7 @@ Her first major exhibition was in 1957 in New York, where she became an instant 
 
 Leonora had a fascination for horses, which she incorporated in both her artwork and her writings. She also developed her own symbology, using an image of a candlestick, for example, to refer to her family. She was one of the last surviving surrealist artists, and set a Christie's auction record for the highest price ($713,000US) paid for work by a living surrealist painter.
 
-[Daravault, 1950]</mutableString>
+[Daravault, 1950]</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
